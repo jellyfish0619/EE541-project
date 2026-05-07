@@ -95,13 +95,6 @@ python evaluate.py --model bilstm
 
 Outputs a full `classification_report` (per-class precision, recall, F1) and saves a confusion matrix image to `checkpoints/<model>_confusion.png`.
 
-### Data Exploration
-
-Open `explore_data.ipynb` in Jupyter or VS Code to visualize:
-- Class distribution
-- Sequence length distribution
-- Sample batch decoding (verify tokenization)
-- Class weight distribution
 
 ---
 
